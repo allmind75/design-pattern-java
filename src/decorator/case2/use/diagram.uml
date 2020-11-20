@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="373.5" y="81.0">decorator.case2.base.KoreanStudent</node>
+    <node x="0.0" y="238.0">decorator.case2.use.TestPattern</node>
+    <node x="192.5" y="81.0">decorator.case2.base.AmericanStudent</node>
+    <node x="222.5" y="0.0">decorator.case2.base.Student</node>
+    <node x="91.00000000000001" y="162.0">decorator.case2.decorator.Science</node>
+    <node x="4.5" y="81.0">decorator.case2.decorator.StudentDecorator</node>
+    <node x="0.0" y="162.0">decorator.case2.decorator.Art</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="decorator.case2.decorator.Art" target="decorator.case2.decorator.StudentDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="35.5" y="137.0" />
+      <point x="46.5" y="137.0" />
+      <point x="-42.0" y="15.5" />
+    </edge>
+    <edge source="decorator.case2.decorator.StudentDecorator" target="decorator.case2.base.Student">
+      <point x="0.0" y="-15.5" />
+      <point x="88.5" y="56.0" />
+      <point x="239.33333333333334" y="56.0" />
+      <point x="-33.666666666666664" y="15.5" />
+    </edge>
+    <edge source="decorator.case2.decorator.Science" target="decorator.case2.decorator.StudentDecorator">
+      <point x="0.0" y="-15.5" />
+      <point x="141.5" y="137.0" />
+      <point x="130.5" y="137.0" />
+      <point x="42.0" y="15.5" />
+    </edge>
+    <edge source="decorator.case2.base.KoreanStudent" target="decorator.case2.base.Student">
+      <point x="0.0" y="-15.5" />
+      <point x="446.5" y="56.0" />
+      <point x="306.6666666666667" y="56.0" />
+      <point x="33.66666666666666" y="15.5" />
+    </edge>
+    <edge source="decorator.case2.base.AmericanStudent" target="decorator.case2.base.Student">
+      <point x="0.0" y="-15.5" />
+      <point x="-7.105427357601002E-15" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="399.0" y="79.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

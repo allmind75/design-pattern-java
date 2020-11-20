@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="98.0" y="238.0">bridge.step4.Clean</node>
+    <node x="151.0" y="81.0">bridge.step4.RobotModel2</node>
+    <node x="0.0" y="81.0">bridge.step4.RobotModel1</node>
+    <node x="0.0" y="314.0">bridge.step4.TestPattern</node>
+    <node x="39.5" y="157.0">bridge.step4.IAction</node>
+    <node x="94.5" y="0.0">bridge.step4.IRobot</node>
+    <node x="0.0" y="238.0">bridge.step4.Cook</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="bridge.step4.Clean" target="bridge.step4.IAction">
+      <point x="0.0" y="-15.5" />
+      <point x="141.0" y="213.0" />
+      <point x="115.25" y="213.0" />
+      <point x="25.25" y="15.5" />
+    </edge>
+    <edge source="bridge.step4.RobotModel2" target="bridge.step4.IRobot">
+      <point x="0.0" y="-15.5" />
+      <point x="216.5" y="56.0" />
+      <point x="164.25" y="56.0" />
+      <point x="23.25" y="15.5" />
+    </edge>
+    <edge source="bridge.step4.RobotModel1" target="bridge.step4.IRobot">
+      <point x="0.0" y="-15.5" />
+      <point x="65.5" y="56.0" />
+      <point x="117.75" y="56.0" />
+      <point x="-23.25" y="15.5" />
+    </edge>
+    <edge source="bridge.step4.Cook" target="bridge.step4.IAction">
+      <point x="0.0" y="-15.5" />
+      <point x="39.0" y="213.0" />
+      <point x="64.75" y="213.0" />
+      <point x="-25.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="399.0" y="79.5" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

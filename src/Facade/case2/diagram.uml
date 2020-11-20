@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="0.0" y="0.0">Facade.case2.Radio</node>
+    <node x="106.0" y="0.0">Facade.case2.Computer</node>
+    <node x="62.125" y="101.0">Facade.case2.HomeFacade</node>
+    <node x="234.0" y="0.0">Facade.case2.Light</node>
+    <node x="109.5" y="202.0">Facade.case2.TestPattern</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Facade.case2.HomeFacade" target="Facade.case2.Radio">
+      <point x="-51.25" y="-15.5" />
+      <point x="72.375" y="81.0" />
+      <point x="53.75" y="81.0" />
+      <point x="10.75" y="15.5" />
+    </edge>
+    <edge source="Facade.case2.HomeFacade" target="Facade.case2.Computer">
+      <point x="-10.25" y="-15.5" />
+      <point x="113.375" y="81.0" />
+      <point x="119.5" y="81.0" />
+      <point x="-40.5" y="15.5" />
+    </edge>
+    <edge source="Facade.case2.TestPattern" target="Facade.case2.Light">
+      <point x="57.3125" y="-15.5" />
+      <point x="232.3125" y="182.0" />
+      <point x="301.81818181818187" y="182.0" />
+      <point x="301.81818181818187" y="81.0" />
+      <point x="309.25" y="81.0" />
+      <point x="32.25" y="15.5" />
+    </edge>
+    <edge source="Facade.case2.TestPattern" target="Facade.case2.HomeFacade">
+      <point x="-24.5625" y="-15.5" />
+      <point x="150.4375" y="162.0" />
+      <point x="92.875" y="162.0" />
+      <point x="-30.75" y="15.5" />
+    </edge>
+    <edge source="Facade.case2.TestPattern" target="Facade.case2.Computer">
+      <point x="24.5625" y="-15.5" />
+      <point x="199.5625" y="162.0" />
+      <point x="219.0681818181818" y="162.0" />
+      <point x="219.0681818181818" y="51.0" />
+      <point x="200.5" y="51.0" />
+      <point x="40.5" y="15.5" />
+    </edge>
+    <edge source="Facade.case2.TestPattern" target="Facade.case2.Radio">
+      <point x="-57.3125" y="-15.5" />
+      <point x="117.6875" y="182.0" />
+      <point x="16.0" y="182.0" />
+      <point x="16.0" y="81.0" />
+      <point x="10.75" y="81.0" />
+      <point x="-32.25" y="15.5" />
+    </edge>
+    <edge source="Facade.case2.HomeFacade" target="Facade.case2.Light">
+      <point x="30.75" y="-15.5" />
+      <point x="154.375" y="71.0" />
+      <point x="244.75" y="71.0" />
+      <point x="-32.25" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9239945821043324" x="312.36917651528296" y="94.88666864877814" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
