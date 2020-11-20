@@ -7,7 +7,7 @@ public class LogWriter {
     private static LogWriter singleton = new LogWriter();
     private static BufferedWriter bw;
 
-    public LogWriter() {
+    private LogWriter() {
         try {
             bw = new BufferedWriter(new FileWriter("log.txt"));
         } catch (Exception e) {
@@ -37,10 +37,4 @@ public class LogWriter {
 
         }
     }
-
-    public final class Cleaner {
-
-    }
-
-
 }

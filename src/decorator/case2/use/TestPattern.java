@@ -1,9 +1,9 @@
 package decorator.case2.use;
 
-import case2.base.AmericanStudent;
-import case2.base.Student;
-import case2.decorator.Art;
-import case2.decorator.Science;
+import decorator.case2.base.AmericanStudent;
+import decorator.case2.base.Student;
+import decorator.case2.decorator.Art;
+import decorator.case2.decorator.Science;
 
 public class TestPattern {
 

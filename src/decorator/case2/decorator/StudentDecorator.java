@@ -1,6 +1,6 @@
 package decorator.case2.decorator;
 
-import case2.base.Student;
+import decorator.case2.base.Student;
 
 public abstract class StudentDecorator extends Student {
 
