@@ -22,7 +22,7 @@ public class LogWriter {
     public synchronized void log(String str) {
         try {
             bw.write(str + "\n");
- gi           bw.flush();
+            bw.flush();
         } catch(Exception e) {
 
         }
